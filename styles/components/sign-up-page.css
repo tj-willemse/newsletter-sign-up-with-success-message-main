@@ -58,6 +58,7 @@
 .email-box {
   display: flex;
   justify-content: space-between;
+  max-width: 250px;
 }
 
 .input {
