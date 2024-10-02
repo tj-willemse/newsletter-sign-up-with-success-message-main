@@ -52,10 +52,13 @@
   }
 
   .success-button {
-    margin-top: 150px;
+    margin-top: 100px;
 
     width: 380px;
     font-weight: bold;
+  }
+  .success-box {
+    margin-top: 130px;
   }
 }
 

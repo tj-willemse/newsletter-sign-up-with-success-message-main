@@ -94,27 +94,35 @@
 /* xs */
 @media (min-width: 475px) {
   .header-title {
-    font-size: var(--size-5xl);
+    font-size: var(--size-6xl);
+    margin-bottom: 20px;
   }
 
   .header-paragraph {
-    font-size: var(--size-base);
+    font-size: var(--size-lg);
   }
   .list-content {
-    font-size: var(--size-base);
+    font-size: var(--size-lg);
   }
 
   .email-text {
-    font-size: var(--size-xs);
+    font-size: var(--size-base);
   }
 
   .input {
     width: 68%;
-    font-size: var(--size-sm);
+    font-size: var(--size-base);
+    margin-bottom: 5px;
   }
   .subscribe-button {
-    font-size: var(--size-sm);
+    font-size: var(--size-xs);
     width: 68%;
+    padding: 10px;
+  }
+  .email-box {
+    display: flex;
+    justify-content: space-between;
+    max-width: 290px;
   }
 }
 
